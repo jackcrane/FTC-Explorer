@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "rn-ftc",
-    "slug": "rn-ftc",
-    "version": "1.0.0",
+    "name": "FIRST Tech Challenge explorer",
+    "slug": "first-tech-challenge-explorer",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,16 +17,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jackcrane.ftcexplorer",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.jackcrane.ftcexplorer",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "icon": "./assets/icon.png"
+    },
+    "description": ""
   }
 }
